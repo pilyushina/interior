@@ -1,0 +1,294 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?31919061');
+  src: url('../font/fontello.eot?31919061#iefix') format('embedded-opentype'),
+  url('../font/fontello.woff?31919061') format('woff'),
+  url('../font/fontello.ttf?31919061') format('truetype'),
+  url('../font/fontello.svg?31919061#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+	width: 1366px;	
+	margin: 0px auto;
+}
+
+.header {
+	height: 360px;
+	background-color: #f5f5f5;
+
+}
+
+.header .logo {
+	margin-top: 63px;
+	margin-left: 98px;
+	float: left;	
+}
+
+.menu {
+	float: right;
+text-decoration: none;
+display: block;
+		margin-top: 63px;
+	margin-right: 211px;
+}
+
+
+.menu li {
+		list-style-type: none;
+		float: left;
+
+}
+
+
+
+.menu li a:hover {
+	font-family: Montserrat;
+color:  #212121;
+font-size: 14px;
+font-weight: 700;
+line-height: 48px;
+padding: 0 20px;
+border-bottom: 3px solid black;
+}
+
+.menu li a {
+color: #8c8c8c;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 300;
+line-height: 48px;
+text-transform: uppercase;
+text-align: right;
+text-decoration: none;
+padding: 0 20px;
+display: block;
+
+}
+
+.menu img {
+	margin-top: 15px;
+	width: 23px;
+height: 23px;
+}
+
+.header h1 {
+height: 43px;
+color: #212121;
+font-family: "Montserrat";
+font-size: 62px;
+font-weight: 280;
+line-height: 72px;
+margin-top: 171px;
+margin-left: 101px;
+display: inline-block;
+}
+
+.location {
+		margin-top: 71px;
+		margin-left: 98px;
+		margin-right: 68px;
+
+}
+
+.location img {
+margin: 48px 34px auto;
+}
+
+.location li {
+	display: inline-block;
+	float: left;
+	text-decoration: none;
+	outline: 1px solid #9c9c9c;
+	margin-right: 30px;
+	height: 370px;
+	width: 370px;
+	text-align: center;
+	}
+
+.location h3 {
+	width: 137px;
+height: 16px;
+color: #212121;
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 700;
+line-height: 29.88px;
+text-transform: uppercase;
+	text-align: center;
+	margin-left: 117px;
+	margin-top: 34px;
+
+}
+
+.location h4 {
+color: #6c6c6c;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+}
+
+.location h5 {
+	color: #212121;
+font-family: "Montserrat";
+font-weight: 700;
+}
+
+.contacts {
+	height: 563px;
+
+}
+
+.footer {
+	height: 384px;	
+	background-color: #f7f7f7;
+	float: left;
+	width: 1366px;
+	
+}
+
+
+
+.box {
+	margin: 120px 98px 0px 97px;
+}
+
+.contactUs {
+	display: inline-block;
+	float: left;
+	width: 221px;
+clear: both;
+}
+
+.contactUs p {
+	width: 221px;
+color: #212121;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 300;
+line-height: 22px;
+}
+
+
+.info {
+	display: inline-block;
+		float: left;
+	
+
+
+}
+
+.info li {
+	list-style-type: none;
+			margin-left: 80px;
+}
+
+.info li a {
+	text-decoration: none;
+	width: 132px;
+height: 62px;
+color: #212121;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+/* Text style for "Sales term" */
+letter-spacing: 0.7px;
+
+}
+
+
+.info h3 {
+	margin-bottom: 25px;
+	text-align: left;
+	margin-left: 80px;
+} 
+
+
+.box h3{
+height: 13px;
+color: #6c6c6c;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+text-transform: uppercase;
+margin-bottom: 24px;
+}
+
+
+form {
+	width: 370px;
+	float: left;
+	margin-left: 78px;
+	position: relative;
+
+}
+
+.subscribe p {
+height: 36px;
+color: #212121;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 300;
+line-height: 22px;
+width: 363px;
+}
+
+.email {
+	width: 370px;
+height: 48px;
+outline: 1px solid #d9dee1;
+background-color: #ffffff;
+}
+
+input {
+	width: 128px;
+height: 14px;
+color: #6c6c6c;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 300;
+line-height: 22px;
+margin-top: 26px;
+padding-left: 19px;
+
+
+}
+
+.input: active {
+	display:none;
+}
+
+.submit {
+display: block;
+	text-decoration: none;
+	top: 118px;
+	left: 356px;
+position: absolute;
+}
+
+.copyright p {
+
+height: 9px;
+color: #6c6c6c;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+letter-spacing: 0.6px;
+margin-left: 98px;
+margin-top: 336px;
+}
